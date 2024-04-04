@@ -1,0 +1,589 @@
+/* importing font */
+@font-face {
+	font-family: "Open Sans", sans-serif;
+	src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf') format("opentype")
+
+}
+@font-face {
+	font-family: Poppins-Medium;
+	src: url('../fonts/Poppins-Medium.ttf') ;
+
+}
+@font-face {
+	font-family: Poppins-SemiBold, sans-serif;
+	src: url('../fonts/Poppins-SemiBold.ttf') 
+
+}
+@font-face {
+    font-family: Poppins-Light;
+    src: url('../fonts/Poppins-Light.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/Poppins-Bold.ttf') format("truetype")
+}
+
+@font-face {
+	font-family: "Open Sans", sans-serif;
+	src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf') format("opentype")
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Open Sans", sans-serif; 
+}
+
+/* ==============main================== */
+
+/* ----------------hero section------------- */
+
+#hero{
+
+}
+
+#hero .hero-owl .item{
+	height: 100vh;
+}
+
+#hero .hero-owl .imagebox{
+position: relative;
+text-align: center;
+}
+
+/* #hero .hero-owl .imagebox .backlayer{
+	position: absolute;
+	top: 0;
+	background: rgba(0, 0, 0, 0.136);
+	z-index: 99;
+	height: 100%;
+	width: 100%;
+} */
+
+#hero .hero-owl .imagebox::before{
+	position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 2;
+    background: #000;
+    opacity: .3;
+}
+#hero .hero-owl .imagebox img{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+#hero .hero-owl .imagebox .textbox{
+	position: absolute;
+	top:34%;
+	text-align: center;
+	width:100%;
+	max-width: 100%;
+	margin: 0 auto;
+	color: white;
+	z-index: 99;
+}
+
+#hero .hero-owl .imagebox .textbox h1{
+	text-transform: uppercase;
+	font-family: Poppins-Bold;
+	color: white;
+}
+#hero .hero-owl .imagebox .textbox p{
+	font-size: 20px;
+    font-family: Poppins-Light;
+
+}
+#hero .hero-owl .imagebox .textbox a{
+	color: white;
+	background: red;
+	text-decoration: none;
+	padding: 12px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#hero .owl-carousel{
+	position: relative;
+}
+
+#hero .owl-carousel .owl-nav .owl-prev i{
+	font-size: 45px;
+	position: absolute;
+	top:50%;
+	z-index: 9999;
+	color: rgb(219, 209, 209);
+	left: 7%;
+}
+#hero .owl-carousel .owl-nav .owl-prev i:active{
+	color: white;
+}
+#hero .owl-carousel .owl-nav .owl-next i{
+	font-size: 45px;
+	position: absolute;
+	top:50%;
+	z-index: 9999;
+	color: rgb(219, 209, 209);
+	right: 7%;
+
+}
+#hero .owl-carousel .owl-nav .owl-prev i:active{
+	color: white;
+}
+
+/* ================hero section ends============ */
+
+/* --------------variety section starts----------- */
+
+#varieties{
+padding-top: 80px;
+padding-bottom: 40px;
+}
+
+#varieties .container-size{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#varieties .wrapper{
+	display: flex;
+	gap: 40px;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+#varieties .varietyrow{
+	justify-content: center;
+	
+}
+
+#varieties .wrapper .varietycol{
+	height:320px;
+	text-align: center;
+}
+
+#varieties .wrapper .varietycol .imgbox{
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+}
+#varieties .wrapper .varietycol .imgbox img{
+	height: 100%;
+	width:100%;
+	object-fit: cover;
+}
+#varieties .wrapper .varietycol .textcontent{
+	padding-top: 20px;
+}
+#varieties .varietycol .textcontent  h4{
+	font-family: Poppins-Light;
+	color: red;
+}
+
+#varieties .varietycol .textcontent  p{
+	font-family: Poppins-Light;
+	font-size: 15px;
+    line-height: 1.8;
+    color: #868e96;
+}
+/* ============varieties ends=============== */
+
+/* ------section head reusability-------- */
+.sectionhead{
+	text-align: center;
+	position: relative;
+}
+
+ .sectionhead .headtop{
+	display: inline-block;
+	background: red;
+	height: 2px;
+	width: 100px;
+
+}
+
+ .sectionhead .headtext{
+	font-family: Poppins-Bold;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+ .sectionhead .back-text{
+	z-index: -1;
+    line-height: 1;
+	top: 55px;
+    left: 29%;
+    font-weight: 900;
+    font-size: 200px;
+	position: absolute;
+    color: #e2e7eb;
+    text-transform: uppercase;
+}
+/* ===============section head reusability ends============== */
+
+/* ---------------special dishes starts----------- */
+#special-dish{
+
+}
+
+#special-dish .btxtdish{
+	left: 27%;
+}
+
+
+
+#special-dish .wrapper{
+	margin-top: 120px;
+}
+
+#special-dish .special-owl{
+	
+}
+#special-dish .special-owl .item{
+	overflow: hidden;
+}
+
+#special-dish .special-owl .item-dishes{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	transition: all 0.6s ease-in-out;
+}
+
+#special-dish .special-owl .item-dishes:hover{
+	transform: scale(1.1);
+	#special-dish .special-owl .item-dishes .text .amount{
+	background: none !important;
+	border: 2px white solid;
+	}
+}
+#special-dish .special-owl .item-dishes::before{
+	position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 2;
+    background: #000;
+    opacity: .3;
+}
+#special-dish .special-owl .item-dishes .text{
+	position:absolute;
+	top:38%;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 999;
+}
+#special-dish .special-owl .item-dishes .text .amount{
+	height: 100px;
+	width: 100px;
+	/* padding: 5px; */
+	background: #cf1d16;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: ease-in .3s;
+}
+#special-dish .special-owl .item-dishes:hover>.text>.amount{
+	background: none !important;
+	border: 2px white solid;
+}
+#special-dish .special-owl .item-dishes .text .amount h4{
+	color: white;
+	font-family:Poppins-bold;
+	font-weight: 600;
+
+}
+
+#special-dish .special-owl .item-dishes .text h3{
+	font-family: Poppins-Bold;
+	padding-top:15px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#special-dish .owl-nav .owl-prev{
+	background: red;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	color: white;
+}
+
+#special-dish .owl-nav .owl-prev i{
+	font-size: 25px;
+	
+
+}
+#special-dish .owl-nav .owl-next{
+	background: red;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	color: white;
+}
+#special-dish .owl-nav .owl-next i{
+	font-size: 25px;
+}
+
+/* ==========specia/ dishes ends============ */
+/* ----------- our menu starts---------------*/
+#menu{
+	padding-top:80px;
+	padding-bottom: 80px;;
+}
+#menu .container-size{
+	max-width: 100%;
+	padding: 0 200px;
+}
+.sectionhead .btxtmenumenu{
+	left: 25%;
+}
+
+
+#menu .wrapper{
+	padding-top: 100px;
+	
+}
+#menu .menurow{
+	background: white;
+}
+
+#menu .menurow .menubox{
+	display: flex;
+}
+#menu .menurow .menubox .left{
+	width: 50%;
+	height: 250px;
+}
+
+#menu .menurow .menubox .text{
+	background: white;
+	padding: 30px;
+}
+
+#menu .menurow .menubox .text h5{
+	font-family: Poppins-Light;
+}
+#menu .menurow .menubox .text p{
+	font-family: Poppins-Light;
+	font-size: 15px;
+    line-height: 1.8;
+    color: #868e96;
+}
+
+#menu .menurow .menubox .text .buy{
+	display: flex;
+	gap:35px
+}
+
+#menu .menurow .menubox .text h3{
+	font-family: Poppins-medium;
+	color: green;
+}
+
+#menu .menurow .menubox .right{
+	width: 50%;
+	height: 250px;
+}
+#menu .menurow .img-box{
+	height: 100%;
+	width: 100%;
+}
+#menu .menurow .img-box img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* =======menu sections ends */
+#testimonials{
+	padding-top: 60px;
+}
+#testimonials .sectionhead .btxtestimon{
+	left: 10%;
+	
+}
+#testimonials .wrapper{
+	padding-top: 110px;
+}
+#testimonials .testimonial-owl .item{
+	background: white;
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#testimonials .testimonial-owl .item .text h5{
+	font-family:Poppins-light;
+	font-size: 17px;
+}
+#testimonials .testimonial-owl .item .chef{
+	display: flex;
+	gap: 20px;
+}
+#testimonials .testimonial-owl .item .chef .left{
+	height: 70px;
+	width:70px;
+	border-radius: 50%;
+}
+#testimonials .testimonial-owl .item .chef .left img{
+	
+	height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#testimonials .testimonial-owl .item .chef .right{
+	padding-top: 10px;
+}
+
+#testimonials .testimonial-owl .item .chef .right p{
+	color: #868e96;
+	font-size: 12px;
+}
+
+/* ==============testimonials ends================ */
+
+/* --------------blogs starts---------------------- */
+
+#blogs{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#blogs .btxtblog{
+	left:12%
+}
+#blogs .wrapper{
+	padding-top: 100px;
+}
+#blogs .blogrow{
+
+}
+
+#blogs .blogrow .blogcol{
+	display: flex;
+}
+
+#blogs .blogrow .blogcol .left{
+	width: 50%;
+	height: 300px;
+}
+
+#blogs .blogrow .blogcol .left img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+#blogs .blogrow .blogcol .right{
+	width: 50%;
+	height: 300px;
+	padding: 30px;
+	background: white;
+}
+#blogs .blogrow .blogcol .right .text{
+
+}
+#blogs .blogrow .blogcol .right .text h5{
+	font-family: Poppins-Light;
+	font-weight:700;
+}
+
+#blogs .blogrow .blogcol .right .text h6{
+	color:#868e96;
+	font-family: Poppins-Light;
+	font-size: 12px;
+}
+
+#blogs .blogrow .blogcol .right .text p{
+	padding-top: 20px;
+	color:#868e96;
+	font-family: Poppins-Light;
+	font-size: 16px;
+}
+#blogs .blogrow .blogcol .right .text .link{
+	padding-top: 25px;
+	padding-left: 20px;
+}
+
+#blogs .blogrow .blogcol .right .text .link a{
+	color: white;
+	/* background: red; */
+	text-decoration: none;
+	
+	font-family: Poppins-Light;
+	text-transform: uppercase;
+
+}
+
+/* ==========blogs ends ===========*/
+
+/* -------------news letter starts---------- */
+
+#newsletter{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#newsletter .content{
+	text-align: center;
+}
+
+#newsletter .content h3{
+	font-family: Poppins-Medium;
+	color: black;
+}
+#newsletter .content p{
+	color: #868e96;
+	font-family: Poppins-Light;
+	padding-top: 20px;
+	
+}
+
+#newsletter .content .form{
+	padding-top: 10px;
+}
+
+#newsletter .content .form form{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+#newsletter .content .form input{
+	padding: 10px;
+	width: 400px;
+}
+
+#newsletter .content .form button{
+	color: white;
+	background: red;
+	text-decoration: none;
+	padding: 12px 20px;
+	font-family: Poppins-Light;
+	text-transform: uppercase;
+	border: none;
+}
+
+
+
+
+
+
+

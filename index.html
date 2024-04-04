@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favi icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/icons/favicon/site.webmanifest">
+    <title>Good Kitchen</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- owl-carousel file -->
+    <link rel="stylesheet" href="assets/owl/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owl/css/owl.theme.default.min.css" />
+    <!-- icon css -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- css file -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/header-footer.css" />
+    <!-- media query file -->
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
+
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@700&family=Nunito+Sans:ital,opsz,wght@1,6..12,665&display=swap" rel="stylesheet">
+
+
+    <!-- ------------- aos animation ------------ -->
+    <link rel="stylesheet" type="text/css" href="assets/aos/css/aos.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+
+    <!-- ==========header=========== -->
+    <header id="header">
+
+        <!-- desktop nav -->
+        <div class="desktopnav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recipies</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">VEG</a></li>
+                      <li><a class="dropdown-item" href="#">NON-VEG</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">VEGAN</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <ul class="">
+                    <button class="custom-btn btn-12"><span>Cart</span><span><i class="fa-solid fa-cart-plus"></i></span></button>
+                    <button class="custom-btn btn-13"><span>Wishlist</span><span><i class="fa-solid fa-heart"></i></span></button>
+
+                </ul>
+              </div>
+            </div>
+        </div>
+          </nav>
+
+
+          <!-- mobile nav -->
+          <div class="mobilenav">
+          <nav class="navbar bg-body-tertiary"> 
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/logo2.png" alt=""></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Recipies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">VEG</a></li>
+                        <li><a class="dropdown-item" href="#">NON-VEG</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">VEGAN</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                  </ul>
+                  <ul class="mt-3">
+                    <button class="custom-btn btn-12"><span>Cart</span><span><i class="fa-solid fa-cart-plus"></i></span></button>
+                    <button class="custom-btn btn-13"><span>Wishlist</span><span><i class="fa-solid fa-heart"></i></span></button>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </nav> 
+        </div>
+    </header>
+
+    <!-- ===========header ends================ -->
+    <!-- ---------------main starts-------------------->
+
+
+    <main>
+
+      <!-- --------------hero section starts-------------->
+
+      <section id="hero">
+
+        <div class="hero-wrapper">
+          <div class="owl-carousel owl-theme hero-owl">
+            <div class="item">
+              <div class="imagebox">
+                <div class="backlayer"></div>
+                <img src="assets/images/hero_1.jpg.webp" alt="heroimage1">
+                <div class="textbox">
+                  <h1>Delecious Food</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Unde ad reiciendis quos officiis pariatur voluptates debitis, quis fuga minus maiores?</p>
+                  <div class="link mt-5">
+                    <a href="">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="imagebox">
+                <div class="backlayer"></div>
+                <img src="assets/images/hero_2.jpg.webp" alt="heroimage2">
+                <div class="textbox">
+                  <h1>Delecious Food</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Unde ad reiciendis quos officiis pariatur voluptates debitis, quis fuga minus maiores?</p>
+                  <div class="link mt-5">
+                    <a href="">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==============hero section ends========== -->
+      <!-- ----------variety section starts----------- -->
+      <section id="varieties" class="">
+        <div class="container-size">
+          <div class="wrapper">
+            <div class="row varietyrow gx-4">
+
+            
+              <div class="col-12 col-lg-3 col-md-6 col-sm-12 varietycol">
+                <div class="imgbox">
+                  <img src="assets/images/cheers.png" alt="">
+                </div>
+                <div class="textcontent">
+                  <h4>Drinks</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 col-md-6 col-sm-12 varietycol">
+                <div class="imgbox">
+                  <img src="assets/images/fish.png" alt="">
+                </div>
+                <div class="textcontent">
+                  <h4>Sea Foods</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 col-md-6 col-sm-12 varietycol">
+                <div class="imgbox">
+                  <img src="assets/images/coffee-cup.png" alt="">
+                </div>
+                <div class="textcontent">
+                  <h4>Cup Coffies</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 col-md-6 col-sm-12 varietycol">
+                <div class="imgbox">
+                  <img src="assets/images/salad.png" alt="">
+                </div>
+                <div class="textcontent">
+                  <h4>Fresh Salads</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic maiores. Velit nisi, reprehenderit, nobis officia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===============varities section ends=========== -->
+      <!-- ------------special dishes starts--------------- -->
+
+      <section id="special-dish">
+        <div class="container-Fluid">
+          <div class="sectionhead">
+            <span class="headtop"></span>
+            <h1 class="headtext">Special dishes</h1>
+            <span class="back-text btxtdish">Dishes</span>
+          </div>
+          <div class="wrapper">
+            <div class="owl-carousel centernonloop  owl-theme special-owl">
+              <div class="item">
+                <a href="" class="item-dishes">
+                  <div class="img-box">
+                    <img src="assets/images/dishes_1.jpg.webp" alt="">
+                  </div>
+                  <div class="text">
+                    <div class="amount">
+                      <h4>$400</h4>
+                    </div>
+                    <h3>Organic tomatto salad</h3>
+                  </div>
+
+                </a>
+              </div>
+              <div class="item">
+                <a href="" class="item-dishes">
+                  <div class="img-box">
+                    <img src="assets/images/dishes_2.jpg.webp" alt="">
+                  </div>
+                  <div class="text">
+                    <div class="amount">
+                      <h4>$400</h4>
+                    </div>
+                    <h3>Organic tomatto salad</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="item" >
+                <a href="" class="item-dishes">
+                  <div class="img-box">
+                    <img src="assets/images/dishes_3.jpg.webp" alt="">
+                  </div>
+                  <div class="text">
+                    <div class="amount">
+                      <h4>$400</h4>
+                    </div>
+                    <h3>Organic tomatto salad</h3>
+                  </div>
+                </a>
+              </div>
+
+              <div class="item">
+                <a href="" class="item-dishes">
+                  <div class="img-box">
+                    <img src="assets/images/dishes_4.jpg.webp" alt="">
+                  </div>
+                  <div class="text">
+                    <div class="amount">
+                      <h4>$400</h4>
+                    </div>
+                    <h3>Organic tomatto salad</h3>
+                  </div>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =============special dish section ends============= -->
+
+      <!-- --------------our menu starts---------------------- -->
+      <section id="menu">
+        <div class="container container-size">
+          <div class="sectionhead">
+            <span class="headtop"></span>
+            <h1 class="headtext">Our menu</h1>
+            <span class="back-text btxtmenumenu">menu</span>
+          </div>
+          <div class="wrapper">
+            <div class="row menurow gx-0">
+              <div class="col-12 col-lg-6 col-sm-12 menubox">
+                
+                  <div class="left">
+                    <div class="text">
+                      <h5>Grilled Caesar salad, shaved reggiano</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                      <div class="buy">
+                        <h3>$12.00</h3>
+                        <a href="" class="custom-btn btn-13 mt-3"><span>now</span><span>order</span></a>
+                      </div>
+                      
+                  
+
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div class="img-box">
+                      <img src="assets/images/dishes_1.jpg.webp" alt="">
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="col-12 col-lg-6 col-sm-12 menubox">
+                
+                <div class="left">
+                  <div class="text">
+                    <h5>Bacon wrapped wild gulf prawns</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                    <div class="buy">
+                        <h3>$12.00</h3>
+                        <a href="" class="custom-btn btn-13 mt-3"><span>now</span><span>order</span></a>
+                      </div>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="img-box">
+                    <img src="assets/images/dishes_2.jpg.webp" alt="">
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-12 col-lg-6 col-sm-12 menubox">
+                
+                  <div class="left">
+                    <div class="img-box">
+                      <img src="assets/images/dishes_3.jpg.webp" alt="">
+                    </div>
+                  </div>
+                  <div class="right">
+                    <div class="text">
+                      <h5>Spicy Calamari and beans</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                      <div class="buy">
+                        <h3>$12.00</h3>
+                        <a href="" class="custom-btn btn-13 mt-3"><span>now</span><span>order</span></a>
+                      </div>
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="col-12 col-lg-6 col-sm-12 menubox">
+                
+                <div class="left">
+                  <div class="img-box">
+                    <img src="assets/images/dishes_4.jpg.webp" alt="">
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="text">
+                    <h5>Seared ahi tuna, honey-ginger sauce</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                    <div class="buy">
+                        <h3>$12.00</h3>
+                        <a href="" class="custom-btn btn-13 mt-3"><span>now</span><span>order</span></a>
+                      </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===========our menu section ends============= -->
+
+      <!-- ------------testimonials starts--------------- -->
+
+      <section id="testimonials">
+        <div class="sectionhead">
+          <span class="headtop"></span>
+          <h1 class="headtext">Testimonial</h1>
+          <span class="back-text btxtestimon">Testimonial</span>
+        </div>
+
+        <div class="container">
+          <div class="wrapper">
+            <div class="owl-carousel owl-theme testimonial-owl">
+              <div class="item">
+                <div class="text">
+                  <h5>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. ”</h5>
+                </div>
+                <div class="chef">
+                  <div class="left">
+                    <img src="assets/images/person_1.jpg.webp" alt="">
+                  </div>
+                  <div class="right">
+                    <h6>Mellisa Howard</h6>
+                    <p>CEO, XYZ Company</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h5>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. ”</h5>
+                </div>
+                <div class="chef">
+                  <div class="left">
+                    <img src="assets/images/person_2.jpg.webp" alt="">
+                  </div>
+                  <div class="right">
+                    <h6>Mike Richardson</h6>
+                    <p>CEO, XYZ Company</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h5>“ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, obcaecati? Quis eum minus, sequi atque quisquam ducimus aliquam veritatis nobis cum iusto neque enim explicabo maxime natus doloribus, fuga sunt. ”</h5>
+                </div>
+                <div class="chef">
+                  <div class="left">
+                    <img src="assets/images/person_3.jpg.webp" alt="">
+                  </div>
+                  <div class="right">
+                    <h6>Charles White</h6>
+                    <p>CEO, XYZ Company</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ============testimonial section ends=========== -->
+
+      <!-- ------------blog section starts---------------- -->
+      <section id="blogs">
+        <div class="sectionhead">
+          <span class="headtop"></span>
+          <h1 class="headtext">Blogs</h1>
+          <span class="back-text btxtblog">our Blogs</span>
+        </div>
+
+        <div class="container">
+          <div class="wrapper">
+            <div class="row blogrow">
+              <div class="col-12 col-lg-6 col-sm-12 blogcol">
+                <div class="left">
+                    <img src="assets/images/dishes_4.jpg.webp" alt="">
+                </div>
+                <div class="right">
+                  <div class="text">
+                    <h5>How to cook beef steak with sauce</h5>
+                    <h6><i class="fa-regular fa-calendar-days"></i> April 22, 2018</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                    <div class="link">
+                      <a href="" class="custom-btn btn-13"><span>more</span><span>read</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 col-sm-12 blogcol">
+                <div class="left">
+                    <img src="assets/images/dishes_3.jpg.webp" alt="">
+                </div>
+                <div class="right">
+                  <div class="text">
+                    <h5>How to cook beef steak with sauce</h5>
+                    <h6><i class="fa-regular fa-calendar-days"></i> April 22, 2018</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
+                    <div class="link">
+                      <a href="" class="custom-btn btn-13"><span>more</span><span>read</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ============blogs section ends========== -->
+
+      <!-- ---------------news letter section starts-------- -->
+      <section id="newsletter" class="bg-light">
+        <div class="container">
+          <div class="wrapper ">
+            <div class="content">
+              <h3>Subsribe Newsletter</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Dolore ex temporibus magni ipsam inventore dolorum sunt, amet vel.</p>
+              <div class="form">
+                <form action="">
+                  
+                  <input type="mail" name="subscribe" placeholder="Enter your email" required>
+                  <button type="submit">Subscribe</button>
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===========news letter section ends============ -->
+
+    </main>
+
+    <!-- ====================================main ends==================== -->
+
+    <!-- -----------------footer starts------------- -->
+    <footer id="footer">
+      <div class="container">
+        <div class="wrapper">
+          <div class="row footrow">
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12 footcol">
+              <div class="about">
+                <h4 class="foothead">About Us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et dolor blanditiis consequuntur ex voluptates perspiciatis omnis unde minima expedita.</p>
+                <div class="social-links">
+                  <a href=""><div class="icon"><i class="fa-brands fa-twitter"></i></div></a>
+                  <a href=""><div class="icon"><i class="fa-brands fa-facebook-f"></i></div></a>
+                  <a href=""><div class="icon"><i class="fa-brands fa-linkedin-in"></i></div></a>
+                  <a href=""><div class="icon"><i class="fa-brands fa-instagram"></i></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12 footcol">
+              <div class="details">
+                <div class="opening">
+                  <h4 class="foothead">Opening Hours</h4>
+                  <span>Sunday-Thursday</span> <br>
+                  <span>5AM - 10PM</span>
+                </div>
+                <div class="contact mt-3">
+                  <h4 class="foothead">Contact Info</h4>
+                  <span>Address:</span>
+                  <p>34 Street Name, City Name Here, United States</p>
+                  <span>Telephone:</span>
+                  <p>+1 242 4942 290</p>
+                  <span>Email:</span>
+                  <p>info@yourdomain.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12 footcol">
+              <div class="quick">
+                <h4 class="foothead">Quick Links</h4>
+                <div class="links"><a href="">About</a><br></div>
+                <div class="links"><a href="">Terms of Use</a><br></div>
+                <div class="links"><a href="">Disclaimers</a><br></div>
+                <div class="links"><a href="">Contact</a><br></div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="copyrights">
+            <p>Copyright &copy; <span id="copyrightYear"></span> All Rights Reserved. <br><span>Blessed Raj P</span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Library JS & our JS -->
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="assets/owl/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/owl/js/owl.carousel.js"></script>
+    <!-- ----------- light-box------------ -->
+    <script src="assets/lightbox2-dev/dist/js/lightbox.js"></script>
+    <!-- --------------- aos script ------------------- -->
+    <script src="assets/aos/js/aos.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+    
+</html>

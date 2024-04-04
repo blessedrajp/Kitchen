@@ -1,0 +1,72 @@
+body h1,
+h3 {
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+.line_height{
+    line-height: 2.5rem;
+}
+.li{
+    list-style: none;
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+
+
+/* -----------------------------font -family -------------------- */
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/Montserrat-Bold_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold_0;
+    src: url('../fonts/Montserrat-SemiBold_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Regular_0;
+    src: url('../fonts/Montserrat-Regular_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Light_0;
+    src: url('../fonts/Montserrat-Light_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Medium_0;
+    src: url('../fonts/Montserrat-Medium_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight_0;
+    src: url('../fonts/Montserrat-ExtraLight_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Thin_0;
+    src: url('../fonts/Montserrat-Thin_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Amigos-7BL14;
+    src: url('../fonts/Amigos-7BL14.ttf') format("opentype")
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #1eb2a6;
+}
+.btn:focus {
+    box-shadow: none;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}
